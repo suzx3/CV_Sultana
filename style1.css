@@ -1,0 +1,23 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer {
+    background-color: #5780a9;
+}
+
+/* Simple styling for images */
+#about img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
