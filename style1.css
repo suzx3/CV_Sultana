@@ -1,23 +1,138 @@
-/* Basic styles */
+/* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #b6c7d9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
 }
 
+/* Navbar */
+.navbar {
+    background-color: #e6e4e6;
+    border-bottom: 3px solid #2980b9;
+}
+.navbar-brand, .nav-link {
+    
+    color: #080808 !important;
+}
+.nav-link:hover {
+    color: #2980b9 !important;
+}
+
+/* Section Headings */
 h2 {
-    color: #007bff;
+    color: #2c3e50;
+    font-weight: bold;
+    border-bottom: 3px solid #2980b9;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
 }
 
-ul {
-    list-style-type: none;
-    padding-left: 0;
+/* About Me Section */
+#about {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-
-footer {
-    background-color: #5780a9;
+#about p {
+    font-size: 18px;
+    color: #2c3e50;
 }
-
-/* Simple styling for images */
-#about img {
+.img-fluid {
     border-radius: 50%;
-    margin-top: 10px;
+    border: 3px solid #2980b9;
+    margin-top: 15px;
+}
+
+/* Education, Projects, Certificates, and Awards Section */
+#education ul li, #projects ul li, #certificates ul li, #awards ul li {
+    color: #2c3e50;
+    padding: 10px;
+    border-left: 4px solid #2980b9;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+/* Social Media Section */
+#social ul li a {
+    color: #ffffff;
+    background-color: #2c3e50;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+#social ul li a:hover {
+    background-color: #2980b9;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: #93AECA;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-pic {
+        margin-top: 20px;
+    }
+    .contact-info {
+        text-align: center;
+    }
+    h2 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 576px) {
+    body {
+        font-size: 12px;
+    }
+
+    .navbar-brand, .nav-link {
+        font-size: 10px;
+    }
+
+    .img-fluid {
+        width: 80px;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        font-size: 16px;
+    }
+
+    .navbar-brand, .nav-link {
+        font-size: 14px;
+    }
+
+    .img-fluid {
+        width: 120px;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
 }
