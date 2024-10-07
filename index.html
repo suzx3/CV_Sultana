@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Resume</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    <!-- Simple Bootstrap Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Resume</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -27,34 +25,29 @@
         </div>
     </nav>
 
-    <!-- About Me Section -->
     <section id="about" class="container mt-4">
         <h2>About Me</h2>
-        <p> I'm Sultana Aldiab, a cybersecurity student with a passion for securing systems and networks. I am currently pursuing my degree in Cybersecurity and gaining experience in ethical hacking, network defense, and risk management. My goal is to become a cybersecurity analyst and help organizations protect their digital assets.</p>
+        <p>I'm Sultana Aldiab, a cybersecurity student with a passion for securing systems and networks, currently pursuing my degree in Cybersecurity, where I'm expanding my skills in ethical hacking, network defense, and risk management. My objectives include obtaining a rewarding role as a cybersecurity analyst, utilizing my skills to protect organizations from cyber threats and safeguard their digital assets, staying updated with the latest cyber threats </p>
         <img src="CV.jpg" alt="my Photo" class="img-fluid" style="width: 150px;">
     </section>
 
-    <!-- Education Section -->
     <section id="education" class="container mt-4">
         <h2>Education</h2>
         <ul>
             <li>Bachelor in Cybersecurity, University of Jeddah (2021-2024)</li>
-           
         </ul>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects" class="container mt-4">
         <h2>Projects</h2>
         <p>Here are some of my main projects:</p>
         <ul>
-            <li>Project 1: University Event Management System</li>
-            <li>Project 2: Disneyland Booking Application</li>
-            <li>Project 3: Employee Record Management System</li>
+            <li><a href="https://www.canva.com/design/DAGS4bWUE4A/JuHIIlf9t7fQCGRSfsjLEQ/edit?utm_content=DAGS4bWUE4A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Management System: University Event Management System to simplify the planning process,communication among stakeholders.</a></li>
+            <li><a href="https://www.canva.com/design/DAF0H2hVX9E/bUEsjk8hZG9QXokcTP196w/view?utm_content=DAF0H2hVX9E&utm_campaign=designshare&utm_medium=link&utm_source=viewer" target="_blank">Booking Application: Disneyland Booking Application allow users to easily plan and book a trip to Disneyland </a></li>
+            <li><a href="https://github.com/suzx3/Employee-Record-Management-System" target="_blank">Record Management System: Employee Record Management System allows users to manage employee information through a console interface</a></li>
         </ul>
     </section>
 
-    <!-- Certificates Section -->
     <section id="certificates" class="container mt-4">
         <h2>Certificates</h2>
         <ul>
@@ -64,55 +57,44 @@
         </ul>
     </section>
 
-    <!-- Awards Section -->
     <section id="awards" class="container mt-4">
         <h2>Awards</h2>
         <ul>
             <li>Winner of University Cybersecurity Hackathon (2023)</li>
-            
         </ul>
     </section>
 
-    <!-- Social Media Section -->
     <section id="social" class="container mt-4">
         <h2>Social Media</h2>
         <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
-            <li class="list-inline-item"><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
-            <li class="list-inline-item"><a href="https://github.com/yourprofile" target="_blank">Gmail</a></li>
+            <li class="list-inline-item"><a href="https://x.com/cybersultana?s=21&t=1yUZ8w6KmNOXz5LLkfEqlQ" target="_blank">Twitter</a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/sultana-altheab-6b94a5283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a></li>
+            <li class="list-inline-item">
+                <a href="mailto:sultanasami20@gmail.com">Email</a>
+            </li>
         </ul>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="container mt-4">
         <h2>Contact Me</h2>
         <form>
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="form-group">
-                <label for="phone">Phone</label>
-                <input type="tel" class="form-control" id="phone" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="message" rows="4" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send</button>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <button type="submit">Send</button> <br>
         </form>
     </section>
 
-    <footer class="text-center py-3 bg-light mt-5">
-        <p>&copy; 2024 Sultana Resume</p>
-    </footer>
-
-    <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
